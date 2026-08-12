@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: grey;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: lightblue;
+}
+h2 {
+  text-align: center;
+  color: lightblue;
+}
+
+main {
+  display: grid;
+  gap: 1rem;
+}
+
+section {
+  padding: 0 1rem;
+}
+
+.UpcomingParties {
+  list-style: none;
+  display: grid;
+  gap: 1ch;
+}
+.UpcomingParties a {
+  color: black;
+  text-decoration: unset;
+
+  display: block;
+  width: 100%;
+  border: 3px solid pink;
+  border-radius: 0.25rem;
+  padding: 3ch;
+}
+
+.UpcomingParties a:hover {
+  background: lightblue;
+}
+.event {
+  display: grid;
+  gap: 1ch;
+  color: lightblue;
+  border: 3px solid pink;
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+@media (width > 600px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
