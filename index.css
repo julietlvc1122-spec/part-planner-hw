@@ -9,11 +9,11 @@ h1 {
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: lightblue;
+  color: white;
 }
 h2 {
   text-align: center;
-  color: lightblue;
+  color: white;
 }
 
 main {
@@ -31,12 +31,12 @@ section {
   gap: 1ch;
 }
 .UpcomingParties a {
-  color: black;
+  color: white;
   text-decoration: unset;
 
   display: block;
   width: 100%;
-  border: 3px solid pink;
+  border: 3px solid white;
   border-radius: 0.25rem;
   padding: 3ch;
 }
@@ -47,7 +47,7 @@ section {
 .event {
   display: grid;
   gap: 1ch;
-  color: lightblue;
+  color: white;
   border: 3px solid pink;
 }
 
